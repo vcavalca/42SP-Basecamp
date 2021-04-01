@@ -1,3 +1,3 @@
 #!bin/sh
 
-ls -l | awk '0==NR%2'
+ls -l | awk '1==NR%2'
