@@ -6,13 +6,13 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/02 23:23:30 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/03 16:28:33 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/03 17:00:15 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	rush02(int x, int y);
 
-int	main(void)
+int		main(void)
 {
 	rush02(5, 3);
 	return (0);
