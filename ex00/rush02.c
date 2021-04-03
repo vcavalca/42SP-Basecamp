@@ -6,13 +6,13 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/02 23:23:33 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/03 16:28:58 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/03 17:20:47 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_putchar(char c);
 
-void	rush02(int x, int y)
+void	rush(int x, int y)
 {
 	int	length;
 	int	width;
