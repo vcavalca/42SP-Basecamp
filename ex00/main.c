@@ -6,14 +6,14 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/02 23:23:30 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/03 14:28:01 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/03 16:28:33 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "rush02.c"
+void	rush02(int x, int y);
 
-int main()
+int	main(void)
 {
-	rush02(123, 42);
-	return 0;
+	rush02(5, 3);
+	return (0);
 }
