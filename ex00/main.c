@@ -6,14 +6,16 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/02 23:23:30 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/03 17:23:00 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/04 15:24:39 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	rush(int x, int y);
 
-int		main(void)
+int		main()
 {
-	rush(5, 3);
+	rush(4, 4);
 	return (0);
+
+	ft_putchar(c);
 }
