@@ -6,7 +6,7 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/06 12:14:25 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/07 20:23:10 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/08 16:11:54 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 void	ft_putstr(char *str)
 {
-	int j;
+	int i;
 
-	j = 0;
-	while (str[j] != '\0')
+	i = 0;
+	while (str[i] != '\0')
 	{
-		write(1, &str[j], 1);
-		j++;
+		write(1, &str[i], 1);
+		i++;
 	}
 }
