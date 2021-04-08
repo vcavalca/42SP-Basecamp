@@ -6,13 +6,13 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/06 16:33:09 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/07 17:17:51 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/08 16:25:03 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+int		ft_strlen(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (*str != '\0')
