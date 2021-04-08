@@ -6,17 +6,17 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/06 11:55:49 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/07 20:23:00 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/08 16:29:13 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_ultimate_div_mod(int *a, int *b)
 {
-	int div;
-	int mod;
+	int auxa;
+	int auxb;
 
-	div = *a / *b;
-	mod = *a % *b;
-	*a = div;
-	*b = *mod;
+	auxa = *a;
+	auxb =*b;
+	*a = auxa / auxb;
+	*b = auxa % auxb;
 }
