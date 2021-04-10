@@ -6,7 +6,7 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/10 13:37:38 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/10 19:15:11 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/10 19:43:23 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -181,11 +181,23 @@ int    rush(unsigned int col1up, unsigned int col2up, unsigned int col3up, unsig
 		  //printf("\n");
           i++;
         }*/
-		for ( i=1; i<5; i++ )
+		for ( i=1; i<5; i++ ){
     	for ( j=1; j<5; j++ )
 		{
-			printf ("%d", matriz[ i ][ j ] );			
+			//write(1, &matriz[i][i], 4);
+			printf ("%d ", matriz[i][j]);			
+		}
+			//write(1, "\n", 1);
+			printf("\n");
 		}
     }
     return (0);
+}
+
+int		main(void)
+{
+	
+	rush(4, 3, 2, 1, 1, 2, 2, 2, 4, 3, 2, 1, 1, 2, 2, 2);
+	
+	return (0);
 }
