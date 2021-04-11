@@ -3,12 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   rush01.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: kkerlly- <kkerlly-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/10 13:37:38 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/11 18:30:42 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/11 21:16:59 by kkerlly-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_print_m.c"
+#include "ft_stage_m.c"
+#include "ft_fill_in.c"
+#include "ft_error.c"
 
 void	ft_print_m(int matriz[6][6]);
 void	ft_ma_a(int m[6][6], int a, int b, int c);
@@ -81,5 +86,11 @@ unsigned int row3right, unsigned int row4right)
 		ft_fill_in(matriz);
 		ft_print_m(matriz);
 	}
+	return (0);
+}
+
+int		main(void)
+{
+	rush(4, 3, 2, 1, 1, 2, 2, 2, 4, 3, 2, 1, 1, 2, 2, 2);
 	return (0);
 }
