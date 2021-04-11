@@ -6,7 +6,7 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/11 14:06:17 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/11 16:32:58 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/11 17:10:42 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,6 @@ void	ft_print_m(int matriz[6][6])
 				write(1, "3", 1);
 			else if (matriz[i][j] == 4)
 				write(1, "4", 1);
-			write(1, " ", 1);
 			j++;
 		}
 		write(1, "\n", 1);
