@@ -6,14 +6,9 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/10 13:37:38 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/11 17:40:56 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/11 18:30:42 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "ft_print_m.c"
-#include "ft_stage_m.c"
-#include "ft_fill_in.c"
-#include "ft_error.c"
 
 void	ft_print_m(int matriz[6][6]);
 void	ft_ma_a(int m[6][6], int a, int b, int c);
