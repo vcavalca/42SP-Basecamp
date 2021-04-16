@@ -6,18 +6,18 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/16 15:56:17 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/16 16:01:06 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/16 16:45:18 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strlen(char *str)
 {
-	int c;
+	int i;
 
-	c = 0;
-	while (str[c] != '\0')
+	i = 0;
+	while (str[i] != '\0')
 	{
-		c++;
+		i++;
 	}
-	return (c);
+	return (i);
 }
