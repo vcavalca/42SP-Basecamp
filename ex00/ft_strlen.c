@@ -6,11 +6,11 @@
 /*   By: vcavalca <vcavalca@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/16 15:56:17 by vcavalca          #+#    #+#             */
-/*   Updated: 2021/04/16 16:45:18 by vcavalca         ###   ########.fr       */
+/*   Updated: 2021/04/16 18:45:43 by vcavalca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+int		ft_strlen(char *str)
 {
 	int i;
 
